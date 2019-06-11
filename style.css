@@ -1,0 +1,42 @@
+html {}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+
+}
+
+img {
+    width: 20%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box1 {
+    background-color: pink;
+    padding-bottom: 7vw;
+    text-align: center;
+    padding-left: 30vw;
+    padding-right: 30vw;
+    line-height: 2em;
+    padding-top: 2vw;
+}
+
+.box2 {
+    background-color: blue;
+    width: 150vw;
+    align-items: center;
+
+
+
+}
+
+.box3 {
+    background-color: green;
+    padding: 30vw;
+}
