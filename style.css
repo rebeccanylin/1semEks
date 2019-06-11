@@ -1,4 +1,6 @@
-html {}
+html {
+    font-family: montserrat, sans-serif;
+}
 
 * {
     box-sizing: border-box;
@@ -6,7 +8,6 @@ html {}
 
 body {
     background-color: whitesmoke;
-    font-family: montserrat, sans-serif;
     font-weight: 400;
     font-style: normal;
 
@@ -14,6 +15,7 @@ body {
 
 #om_mig {
     display: block;
+
 }
 
 img {
@@ -37,10 +39,12 @@ h1 {
     line-height: 2em;
     padding-top: 2vw;
     font-size: 1.5em;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 
-.iTo {
+.container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -54,6 +58,7 @@ h1 {
     left: 5vw;
     position: relative;
 
+
 }
 
 
@@ -65,9 +70,5 @@ h1 {
     margin-right: 10vw;
     left: 50vw;
     top: 23vw;
-
-
-
-
 
 }
