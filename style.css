@@ -1,3 +1,5 @@
+/*Generelle instillinger*/
+
 html {
     font-family: montserrat, sans-serif;
 }
@@ -7,68 +9,115 @@ html {
 }
 
 body {
-    background-color: whitesmoke;
+
     font-weight: 400;
     font-style: normal;
 
 }
 
-#om_mig {
-    display: block;
-
-}
 
 img {
     width: 100%;
 }
 
-h1 {
+/*--------------------------CV--------------------*/
+
+
+
+#om_mig {
+    display: block;
+    background-color: rgba(255, 192, 203, 0.24);
+    margin: 0;
+    padding: 0;
+    /*
+    flex-grow: 2;
+    flex-basis: 1;
+*/
+
+}
+
+
+#om_mig h1 {
     position: relative;
     top: 3vw;
     text-align: center;
     font-weight: 100;
-    font-size: 1em;
+    font-size: 1.5em;
+
 }
 
-.box1 {
-    /*    background-color: pink;*/
-    padding-bottom: 7vw;
+#om_mig .box1 {
+
+    padding-bottom: 5vw;
     text-align: center;
     padding-left: 30vw;
     padding-right: 30vw;
     line-height: 2em;
     padding-top: 2vw;
-    font-size: 1.5em;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-
-.container {
-    display: flex;
+    font-size: 1em;
     flex-direction: row;
-    flex-wrap: wrap;
-    column-count: 2;
-}
-
-
-.box2 {
-    /*    background-color: blue;*/
-    width: 50vw;
-    left: 5vw;
     position: relative;
 
+}
+
+
+/*
+#om_mig .container {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    position: relative;
+
+}
+*/
+
+
+/*
+#om_mig .box2 {
+    border-style: dashed;
+    height: 44vw;
+    left: 5vw;
+    position: relative;
+    top: 1vw;
+    display: block;
+
+
+
+
+}
+*/
+
+#om_mig .box3 {
+
+    padding-left: 10vw;
+    position: relative;
+    margin-right: 10vw;
+    left: 5vw;
+    /*    display: block;*/
+    flex-direction: row;
+    flex-basis: 1;
+
+
+
+
+
 
 }
 
 
+/*----------------------foside----------------------*/
 
-.box3 {
-    /*    background-color: green;*/
-    padding-left: 10vw;
+.splash img {
+    width: 100%;
     position: absolute;
-    margin-right: 10vw;
-    left: 50vw;
-    top: 23vw;
+    top: 7vw;
+}
+
+.mitNavn {
+    position: relative;
+    left: 10vw;
+    top: 20vw;
+    color: white;
+    border-top: 1vw;
 
 }
