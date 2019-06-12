@@ -82,7 +82,7 @@ img {
 .splash img {
     width: 100%;
     position: absolute;
-    top: 7vw;
+    top: 20vw;
 }
 
 .mitNavn {
@@ -110,7 +110,7 @@ img {
 
 body {
     background-color: white;
-    @media screen and (max-width: 400px) @media screen and (max-width: 1217px)
+    @media screen and (max-width: 400px) @media screen and (max-width: 1220px)
 }
 
 
@@ -315,5 +315,251 @@ a:hover {
     text-align: center;
     top: 150px;
     position: relative;
+
+}
+
+
+
+/*Burgermenu*/
+
+/*
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+*/
+
+/*
+html {
+    font-size: 62.5%;
+    background-color: #bfbabe;
+
+}
+*/
+
+/*
+img {
+    width: 100%;
+}
+*/
+
+.hidden {
+    display: none;
+}
+
+nav {
+    justify-content: space-between;
+    display: flex;
+    background-color: #5d4954;
+    min-height: 5vw;
+    width: 100vw;
+}
+
+ul {
+    padding: 0;
+}
+
+/* Menu Mobil */
+
+#menuMobil a {
+    display: block;
+    text-decoration: none;
+    color: rgba(232, 231, 231, 0.96);
+    margin-top: 14vw;
+    margin-bottom: 10vw;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#menuknapMobil {
+    z-index: 10;
+    width: 8vw;
+    height: 8vw;
+    margin-right: 5vw;
+    margin-top: 4rem;
+}
+
+#menuMobil {
+    width: 50%;
+    top: 7.4vh;
+    right: 0;
+    min-height: 100vh;
+    position: absolute;
+    z-index: 6;
+    font-size: 2.5rem;
+    background-color: #5d4954;
+    transition: .3s;
+    text-align: center;
+    padding-bottom: 20vw;
+    transition: transform 2s ease-in;
+}
+
+
+#menuDesktop {
+    width: 100vw;
+    min-height: 2vw;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.navigation {
+    margin-top: 2vw;
+    letter-spacing: 3px;
+}
+
+#menuDesktop a {
+    text-decoration: none;
+    font-size: 1em;
+    color: rgba(232, 231, 231, 0.96);
+    padding: 4rem;
+    /*    font-family: 'Montserrat',
+    sans-serif;*/
+}
+
+
+/*.logo {
+    background-image: url(billeder/512x512.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 8vw;
+    height: 8vw;
+
+}*/
+
+.logo h4 {
+    font-size: 1em;
+    color: rgba(232, 231, 231, 0.96);
+    margin-top: 1.5vw;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+}
+
+.coverBillede {
+    /*    background-image: url(billeder/PeterPanikBilledFedSkiturMand.jpg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 90vh;
+
+}
+
+/*
+
+.navnTekst {
+    text-align: center;
+    font-size: 30rem;
+    color: rgba(255, 255, 255, 0.96);
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    letter-spacing: 10px;
+
+    padding-top: 10vw;
+}
+*/
+
+/*
+.navnTekst h4 {
+    margin: 5vw;
+}
+*/
+
+
+
+
+footer {
+    width: 100vw;
+    height: 5vh;
+    background-color: #2d2d2f;
+    font-size: 1rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.96);
+    padding-top: 1rem;
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+    .navigation {
+        display: none;
+
+    }
+
+    .navnTekst {
+        padding-top: 55vw;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+
+
+    .logo h4 {
+        font-size: 1.5rem;
+        color: rgba(232, 231, 231, 0.96);
+        margin-top: 6vw;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 2px;
+        margin-left: 2vw;
+        padding-left: 0;
+
+    }
+
+
+    #menuknapMobil {
+        z-index: 10;
+        width: 8vw;
+        min-height: 12vw;
+        margin-top: 2vw;
+        margin-right: 4vw;
+        margin-bottom: 2vw;
+
+    }
+
+    /*
+    .coverbillede {
+        height: 100vh;
+    }*/
+
+
+    #menuDesktop {
+        width: 100vw;
+        padding-right: 10rem;
+        min-height: 2vw;
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    #menuMobil {
+        display: none;
+
+    }
+
+    #menuknapMobil {
+        display: none;
+
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {
+        display: inline-block;
+
+    }
+
 
 }
