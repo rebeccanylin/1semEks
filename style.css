@@ -34,7 +34,7 @@ nav {
     justify-content: space-between;
     display: flex;
     background-color: #5d4954;
-    min-height: 5vw;
+    height: 5vw;
     width: 100vw;
 }
 
@@ -101,56 +101,24 @@ ul {
 }
 
 
-/*.logo {
-    background-image: url(billeder/512x512.png);
+
+.logo {
+    background-image: url(img);
     background-size: cover;
     background-repeat: no-repeat;
     width: 8vw;
     height: 8vw;
 
-}*/
+}
 
 .logo h4 {
-    font-size: 1em;
+    font-size: .7em;
     color: rgba(232, 231, 231, 0.96);
     margin-top: 1.5vw;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 5px;
+    margin-bottom: 0;
 }
-
-/*
-.coverBillede {
-    background-image: url(billeder/PeterPanikBilledFedSkiturMand.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 90vh;
-
-}
-*/
-
-
-
-/*
-.navnTekst {
-    text-align: center;
-    font-size: 30rem;
-    color: rgba(255, 255, 255, 0.96);
-    font-family: 'Montserrat', sans-serif;
-    font-style: italic;
-    letter-spacing: 10px;
-
-    padding-top: 10vw;
-}
-*/
-
-
-/*
-.navnTekst h4 {
-    margin: 5vw;
-}
-*/
-
 
 
 
@@ -179,26 +147,6 @@ footer {
 
     }
 
-    /*
-    .navnTekst {
-        padding-top: 55vw;
-        text-align: center;
-        font-size: 2rem;
-    }
-
-
-
-    .logo h4 {
-        font-size: 1.5rem;
-        color: rgba(232, 231, 231, 0.96);
-        margin-top: 6vw;
-        font-family: 'Montserrat', sans-serif;
-        letter-spacing: 2px;
-        margin-left: 2vw;
-        padding-left: 0;
-
-    }
-*/
 
 
     #menuknapMobil {
@@ -210,11 +158,6 @@ footer {
         margin-bottom: 2vw;
 
     }
-
-    /*
-    .coverbillede {
-        height: 100vh;
-    }*/
 
 
     #menuDesktop {
@@ -252,6 +195,32 @@ footer {
     }
 
 
+}
+
+/*----------------------foside----------------------*/
+
+.splash img {
+    width: 100%;
+    position: relative;
+    top: 0;
+    z-index: 10;
+}
+
+
+.mitNavn {
+    position: absolute;
+    left: 10vw;
+    top: 25vw;
+    color: white;
+    border-top: 1vw;
+    z-index: 20;
+
+}
+
+
+
+img {
+    width: 100%;
 }
 
 /*-------------------CV---------------------------*/
@@ -309,27 +278,7 @@ footer {
 }
 
 
-/*----------------------foside----------------------*/
 
-.splash img {
-    width: 100%;
-    position: relative;
-    top: 20vw;
-}
-
-.mitNavn {
-    position: relative;
-    left: 10vw;
-    top: 20vw;
-    color: white;
-    border-top: 1vw;
-
-}
-
-
-img {
-    width: 100%;
-}
 
 
 
@@ -492,8 +441,6 @@ body {
 
 #portfolie a {
     font-family: montserrat, sans-serif;
-    font-weight: 300;
-    font-style: normal;
     color: black;
     text-decoration: none;
 
@@ -516,9 +463,9 @@ body {
 /*/ FONT /*/
 
 #portfolie h3 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-family: montserrat, sans-serif;
-    font-weight: 80;
+    font-weight: 100;
     font-style: normal;
     /*    color: white;*/
     text-align: center;
@@ -536,7 +483,7 @@ body {
 #web {
     display: block;
     background-color: rgba(255, 192, 203, 0.24);
-    background-size: contain;
+    background-size: cover;
     /*
     margin: 0;
     padding: 0;
@@ -552,6 +499,20 @@ body {
     text-align: center;
     font-weight: 100;
     font-size: 1.5em;
+
+}
+
+#web h2 {
+    position: relative;
+    text-align: center;
+
+}
+
+#web a {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: hotpink;
 
 }
 
@@ -606,6 +567,14 @@ body {
     text-align: center;
     font-weight: 100;
     font-size: 1.5em;
+
+}
+
+#animation a {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: hotpink;
 
 }
 
@@ -664,6 +633,14 @@ body {
 
 }
 
+#content a {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: hotpink;
+
+}
+
 #content .box1 {
 
     padding-bottom: 5vw;
@@ -716,6 +693,14 @@ body {
     text-align: center;
     font-weight: 100;
     font-size: 1.5em;
+
+}
+
+#ux a {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: hotpink;
 
 }
 
