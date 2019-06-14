@@ -108,10 +108,12 @@ img {
 /* --------------  PORTFOLIE  ----- */
 
 
+/*
 body {
     background-color: white;
     @media screen and (max-width: 400px) @media screen and (max-width: 1220px)
 }
+*/
 
 
 #portfolie .container {
@@ -179,22 +181,25 @@ body {
 
 
 #portfolie .felt1 {
-    background-image: url(pictures/1.jpeg);
+    background-image: url(img/Sk%C3%A6rmbillede%202019-06-13%20kl.%2017.19.47.png);
 
     background-size: cover;
     width: 45vw;
     height: 100%;
     flex-grow: 1;
     flex-basis: 400px;
+    height: 25vw;
+
 }
 
 #portfolie .felt2 {
-    background-image: url(pictures/2.jpeg);
+    background-image: url(img/Sk%C3%A6rmbillede%202019-06-13%20kl.%2017.42.18.png);
     background-size: cover;
     width: 45vw;
     height: 100%;
     flex-grow: 1;
     flex-basis: 400px;
+    height: 25vw;
 
 
 }
@@ -202,32 +207,37 @@ body {
 
 
 #portfolie .felt3 {
-    background-image: url(pictures/3.jpeg);
+    background-image: url(img/Sk%C3%A6rmbillede%202019-06-13%20kl.%2017.44.37.png);
     background-size: cover;
     width: 45vw;
     height: 100%;
     flex-grow: 1;
     flex-basis: 400px;
+    height: 25vw;
 }
 
 #portfolie .felt4 {
-    background-image: url(pictures/4.jpeg);
+    background-image: url(img/Sk%C3%A6rmbillede%202019-06-13%20kl.%2017.47.24.png);
     background-size: cover;
     width: 45vw;
     height: 100%;
     flex-grow: 1;
     flex-basis: 400px;
+    height: 25vw;
 
 }
 
 
 /*/ OVERLAYS /*/
 
+
+
 #portfolie .overlay1 {
     position: absolute;
     background-color: rgba(192, 192, 192, 0.5);
     width: 45%;
     height: 48.5%;
+    z-index: 10px;
 }
 
 #portfolie .overlay1:hover {
@@ -472,11 +482,14 @@ ul {
 footer {
     width: 100vw;
     height: 5vh;
-    background-color: #2d2d2f;
+    background-color: #000;
     font-size: 1rem;
     text-align: center;
-    color: rgba(255, 255, 255, 0.96);
-    padding-top: 1rem;
+    position: relative;
+    top: 5vw;
+    padding-bottom: 2vw;
+
+
 
 }
 
