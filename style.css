@@ -12,6 +12,7 @@ body {
 
     font-weight: 400;
     font-style: normal;
+    background-color: rgba(255, 192, 203, 0.24);
 
 }
 
@@ -33,9 +34,9 @@ img {
 nav {
     justify-content: space-between;
     display: flex;
-    background-color: #5d4954;
-    height: 5vw;
-    width: 100vw;
+    background-color: rgba(135, 201, 255, 0.9);
+    min-height: 5vw;
+    width: 98.9vw;
 }
 
 ul {
@@ -48,7 +49,7 @@ ul {
     display: block;
     text-decoration: none;
     color: rgba(232, 231, 231, 0.96);
-    margin-top: 14vw;
+    margin-top: 15vw;
     margin-bottom: 10vw;
     font-weight: 400;
     font-style: normal;
@@ -70,7 +71,7 @@ ul {
     position: absolute;
     z-index: 6;
     font-size: 2.5rem;
-    background-color: #5d4954;
+    background-color: rgba(135, 201, 255, 0.9);
     transition: .3s;
     text-align: center;
     padding-bottom: 20vw;
@@ -125,7 +126,7 @@ ul {
 footer {
     width: 100vw;
     height: 5vh;
-    background-color: #000;
+    background-color: #87c9ff;
     font-size: 1rem;
     text-align: center;
     position: relative;
@@ -227,7 +228,7 @@ img {
 
 #om_mig {
     display: block;
-    background-color: rgba(255, 192, 203, 0.24);
+
     background-size: contain;
     /*
     margin: 0;
@@ -358,7 +359,7 @@ body {
 
 
 #portfolie .felt1 {
-    background-image: url(img/Sk%C3%A6rmbillede%202019-06-13%20kl.%2017.19.47.png);
+    background-image: url(img/artdeco_splash.png);
 
     background-size: cover;
     width: 45vw;
@@ -370,7 +371,7 @@ body {
 }
 
 #portfolie .felt2 {
-    background-image: url(img/Sk%C3%A6rmbillede%202019-06-13%20kl.%2017.42.18.png);
+    background-image: url(img/rattata_startside.png);
     background-size: cover;
     width: 45vw;
     height: 100%;
@@ -384,7 +385,7 @@ body {
 
 
 #portfolie .felt3 {
-    background-image: url(img/Sk%C3%A6rmbillede%202019-06-13%20kl.%2017.44.37.png);
+    background-image: url(img/solavine_logo.png);
     background-size: cover;
     width: 45vw;
     height: 100%;
@@ -394,7 +395,7 @@ body {
 }
 
 #portfolie .felt4 {
-    background-image: url(img/Sk%C3%A6rmbillede%202019-06-13%20kl.%2017.47.24.png);
+    background-image: url(img/kea_prototype.png);
     background-size: cover;
     width: 45vw;
     height: 100%;
@@ -411,7 +412,7 @@ body {
 
 #portfolie .overlay1 {
     position: absolute;
-    background-color: rgba(192, 192, 192, 0.87);
+    background-color: rgba(135, 201, 255, 0.71);
     width: 45%;
     height: 46.3%;
     z-index: 10px;
@@ -425,7 +426,7 @@ body {
 
 #portfolie .overlay2 {
     position: absolute;
-    background-color: rgba(192, 192, 192, 0.87);
+    background-color: rgba(135, 201, 255, 0.71);
     width: 45%;
     height: 46.5%;
 }
