@@ -81,7 +81,7 @@ img {
 
 .splash img {
     width: 100%;
-    position: absolute;
+    position: relative;
     top: 20vw;
 }
 
@@ -188,7 +188,7 @@ body {
     height: 100%;
     flex-grow: 1;
     flex-basis: 400px;
-    height: 25vw;
+    /*    height: 25vw;*/
 
 }
 
@@ -199,7 +199,7 @@ body {
     height: 100%;
     flex-grow: 1;
     flex-basis: 400px;
-    height: 25vw;
+    /*    height: 25vw;*/
 
 
 }
@@ -213,7 +213,7 @@ body {
     height: 100%;
     flex-grow: 1;
     flex-basis: 400px;
-    height: 25vw;
+    /*    height: 25vw;*/
 }
 
 #portfolie .felt4 {
@@ -223,7 +223,7 @@ body {
     height: 100%;
     flex-grow: 1;
     flex-basis: 400px;
-    height: 25vw;
+    /*    height: 25vw;*/
 
 }
 
@@ -234,83 +234,54 @@ body {
 
 #portfolie .overlay1 {
     position: absolute;
-    background-color: rgba(192, 192, 192, 0.5);
+    background-color: rgba(192, 192, 192, 0.87);
     width: 45%;
-    height: 48.5%;
+    height: 46.3%;
     z-index: 10px;
 }
+
 
 #portfolie .overlay1:hover {
     background-color: rgba(0, 0, 0, 0);
 }
 
+
 #portfolie .overlay2 {
     position: absolute;
-    background-color: rgba(192, 192, 192, 0.5);
+    background-color: rgba(192, 192, 192, 0.87);
     width: 45%;
-    height: 48.5%;
+    height: 46.5%;
 }
 
 #portfolie .overlay2:hover {
     background-color: rgba(0, 0, 0, 0);
 }
 
-#portfolie .overlay3 {
-    position: absolute;
-    background-color: rgba(192, 192, 192, 0.5);
-    width: 45%;
-    height: 48.5%;
-}
-
-#portfolie .overlay3:hover {
-    background-color: rgba(0, 0, 0, 0);
-}
-
-#portfolie .overlay4 {
-    position: absolute;
-    background-color: rgba(192, 192, 192, 0.5);
-    width: 45%;
-    height: 48.5%;
-}
-
-#portfolie .overlay4:hover {
-    background-color: rgba(0, 0, 0, 0);
-}
-
-
 
 
 /*/ HOVER /*/
 
+
 #portfolie a {
     font-family: montserrat, sans-serif;
-
-    font-weight: 400;
-
-    font-style: normal;
     font-weight: 300;
     font-style: normal;
     color: black;
     text-decoration: none;
+
+
 }
+
 
 #portfolie a:hover {
-    color: black;
-    text-decoration: none;
-}
-
-
-a {
-    color: black;
-
-}
-
-a:visited {
-    color: black;
-}
-
-a:hover {
     color: pink;
+    text-decoration: none;
+
+}
+
+#portfolie a:hover h3 {
+    top: 10px;
+    position: relative;
 }
 
 
@@ -321,10 +292,12 @@ a:hover {
     font-family: montserrat, sans-serif;
     font-weight: 80;
     font-style: normal;
-    color: white;
+    /*    color: white;*/
     text-align: center;
     top: 150px;
     position: relative;
+    text-decoration: none;
+    /*    background-color: aliceblue;*/
 
 }
 
@@ -332,27 +305,7 @@ a:hover {
 
 /*Burgermenu*/
 
-/*
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-*/
 
-/*
-html {
-    font-size: 62.5%;
-    background-color: #bfbabe;
-
-}
-*/
-
-/*
-img {
-    width: 100%;
-}
-*/
 
 .hidden {
     display: none;
@@ -378,7 +331,6 @@ ul {
     color: rgba(232, 231, 231, 0.96);
     margin-top: 14vw;
     margin-bottom: 10vw;
-    font-family: canada-type-gibson, sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -447,17 +399,20 @@ ul {
     letter-spacing: 5px;
 }
 
+/*
 .coverBillede {
-    /*    background-image: url(billeder/PeterPanikBilledFedSkiturMand.jpg);*/
+    background-image: url(billeder/PeterPanikBilledFedSkiturMand.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
     height: 90vh;
 
 }
+*/
+
+
 
 /*
-
 .navnTekst {
     text-align: center;
     font-size: 30rem;
@@ -469,6 +424,7 @@ ul {
     padding-top: 10vw;
 }
 */
+
 
 /*
 .navnTekst h4 {
@@ -504,6 +460,7 @@ footer {
 
     }
 
+    /*
     .navnTekst {
         padding-top: 55vw;
         text-align: center;
@@ -522,6 +479,7 @@ footer {
         padding-left: 0;
 
     }
+*/
 
 
     #menuknapMobil {
