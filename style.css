@@ -39,7 +39,12 @@ nav {
     background-color: rgba(135, 201, 255, 0.87);
     min-height: 5vw;
     width: 100vw;
+    top: -1vw;
+    position: fixed;
+    z-index: 100;
+
 }
+
 
 ul {
     padding: 0;
@@ -54,7 +59,7 @@ ul {
     margin-top: 15vw;
     margin-bottom: 10vw;
     font-weight: 400;
-    font-style: normal;
+    /*    font-style: normal;*/
 }
 
 #menuknapMobil {
@@ -74,7 +79,7 @@ ul {
     z-index: 6;
     font-size: 1rem;
     background-color: rgba(135, 201, 255, 0.9);
-    transition: .3s;
+    transition: .5s;
     text-align: center;
     padding-bottom: 20vw;
     transition: transform 2s ease-in;
@@ -86,6 +91,9 @@ ul {
     min-height: 2vw;
     display: flex;
     justify-content: space-around;
+    position: fixed;
+
+
 
 }
 
@@ -103,6 +111,9 @@ ul {
     sans-serif;*/
 }
 
+#menuDesktop a:hover {
+    color: pink;
+}
 
 
 .logo {
@@ -282,13 +293,11 @@ img {
 }
 
 
-
-
-
-
 /* --------------  PORTFOLIE  ----- */
 
 #portfolie .container {
+    position: relative;
+    top: 3vw;
     display: flex;
     flex-wrap: wrap;
     width: 120vw;
@@ -299,6 +308,8 @@ img {
 
 
 #portfolie .container2 {
+    position: relative;
+    top: 3vw;
     display: flex;
     flex-wrap: wrap;
     width: 120vw;
@@ -315,6 +326,7 @@ img {
     margin-left: 2vw;
     margin-bottom: 2vw;
     text-align: center;
+
 
 }
 
@@ -351,23 +363,28 @@ img {
 
 
 #portfolie .felt1 {
+    position: relative;
     background-image: url(img/artdeco_splash.png);
     background-size: cover;
     width: 45vw;
     height: 100%;
     flex-grow: 1;
     flex-basis: 400px;
+
+
     /*      height: 25vw;*/
 
 }
 
 #portfolie .felt2 {
+    position: relative;
     background-image: url(img/rattata_startside.png);
     background-size: cover;
     width: 45vw;
     height: 100%;
     flex-grow: 1;
     flex-basis: 400px;
+
     /*    height: 25vw;*/
 
 
@@ -376,6 +393,7 @@ img {
 
 
 #portfolie .felt3 {
+    position: relative;
     background-image: url(img/solavine_logo.png);
     background-size: cover;
     width: 45vw;
@@ -386,12 +404,14 @@ img {
 }
 
 #portfolie .felt4 {
+    position: relative;
     background-image: url(img/kea_prototype.png);
     background-size: cover;
     width: 45vw;
     height: 100%;
     flex-grow: 1;
     flex-basis: 400px;
+
     /*    height: 25vw;*/
 
 }
@@ -404,10 +424,11 @@ img {
 #portfolie .overlay1 {
     position: absolute;
     background-color: rgba(135, 201, 255, 0.71);
-    width: 45%;
-    height: 46.3%;
+    width: 100%;
+    height: 100%;
     z-index: 10px;
 }
+
 
 
 #portfolie .overlay1:hover {
@@ -415,16 +436,19 @@ img {
 }
 
 
+
 #portfolie .overlay2 {
     position: absolute;
     background-color: rgba(135, 201, 255, 0.71);
-    width: 45%;
-    height: 46.5%;
+    width: 100%;
+    height: 100%;
 }
+
 
 #portfolie .overlay2:hover {
     background-color: rgba(0, 0, 0, 0);
 }
+
 
 
 
