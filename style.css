@@ -30,24 +30,18 @@ footer {
     background-color: rgba(135, 201, 255, 0.71);
     font-size: 1em;
     text-align: center;
-    position: relative;
-    top: 100px;
-    padding-bottom: 2vw;
-
-
-}
-
-footer .col {
 
     width: 100vw;
     min-height: 2vw;
     display: flex;
-
-
-    position: relative;
+    justify-content: space-around;
+    padding-top: 10px;
     top: .5vw;
 
+
 }
+
+
 
 /*--------------------Burgermenu--------------------*/
 
@@ -325,6 +319,7 @@ ul {
 /* --------------  PORTFOLIE  ----- */
 
 #portfolie .container {
+    margin-top: 10vh;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -522,14 +517,15 @@ ul {
 
 #web {
     display: block;
-
     background-size: cover;
-    /*
-    margin: 0;
-    padding: 0;
-*/
     flex-grow: 2;
     flex-basis: 1;
+    display: block;
+    position: relative;
+    top: 3vw;
+    font-weight: 100;
+    font-size: 1em;
+
 
 }
 
@@ -539,6 +535,7 @@ ul {
     text-align: center;
     font-weight: 100;
     font-size: 1.5em;
+    text-align: center;
 
 }
 
@@ -558,6 +555,8 @@ ul {
 
 #web .box1 {
 
+    top: 30px;
+
     padding-bottom: 5vw;
     text-align: center;
     padding-left: 30vw;
@@ -573,12 +572,11 @@ ul {
 
 
 #web .box2 {
-
     padding-left: 20vw;
     position: relative;
     margin-right: 30vw;
     left: 5vw;
-    top: -5vw;
+    top: -5vh;
     display: block;
     flex-direction: row;
     flex-basis: 1;
@@ -590,14 +588,14 @@ ul {
 
 #animation {
     display: block;
-    /*    background-color: rgba(255, 192, 203, 0.24);*/
-    background-size: contain;
-    /*
-    margin: 0;
-    padding: 0;
-*/
+    background-size: cover;
     flex-grow: 2;
     flex-basis: 1;
+    display: block;
+    position: relative;
+    top: 3vw;
+    font-weight: 100;
+    font-size: 1em;
 
 }
 
@@ -653,14 +651,14 @@ ul {
 
 #content {
     display: block;
-    /*    background-color: rgba(255, 192, 203, 0.24);*/
-    background-size: contain;
-    /*
-    margin: 0;
-    padding: 0;
-*/
+    background-size: cover;
     flex-grow: 2;
     flex-basis: 1;
+    display: block;
+    position: relative;
+    top: 3vw;
+    font-weight: 100;
+    font-size: 1em;
 
 }
 
@@ -716,15 +714,14 @@ ul {
 
 #ux {
     display: block;
-    /*    background-color: rgba(255, 192, 203, 0.24);*/
-    background-size: contain;
-    /*
-    margin: 0;
-    padding: 0;
-*/
+    background-size: cover;
     flex-grow: 2;
     flex-basis: 1;
-
+    display: block;
+    position: relative;
+    top: 3vw;
+    font-weight: 100;
+    font-size: 1em;
 }
 
 #ux h1 {
