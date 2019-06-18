@@ -553,6 +553,11 @@ ul {
 
 }
 
+#web ul {
+    text-align: center;
+
+}
+
 #web img {
     padding-left: 10vw;
     padding-right: 10vw;
