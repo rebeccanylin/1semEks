@@ -2,7 +2,7 @@
 <browserconfig>
     <msapplication>
         <tile>
-            <square150x150logo src="/kea/05-eksamen/portfolieEks/favicon/mstile-150x150.png"/>
+            <square150x150logo src="kea/05-eksamen/portfolieEks/mstile-150x150.png"/>
             <TileColor>#da532c</TileColor>
         </tile>
     </msapplication>

@@ -27,10 +27,9 @@ img {
 footer {
     width: 100%;
     height: 5vh;
-    background-color: rgba(135, 201, 255, 0.71);
-    font-size: 1em;
+    background-color: rgba(14, 127, 144, 0.79);
+    font-size: 0.7em;
     text-align: center;
-
     width: 100vw;
     min-height: 2vw;
     display: flex;
@@ -53,8 +52,7 @@ footer {
 
 nav {
     justify-content: space-between;
-
-    background-color: rgba(135, 201, 255, 0.87);
+    background-color: rgba(14, 127, 144, 0.79);
     min-height: 5vw;
     width: 100vw;
     top: 0;
@@ -107,7 +105,7 @@ ul {
     position: absolute;
     z-index: 6;
     font-size: 1rem;
-    background-color: rgba(135, 201, 255, 0.9);
+    background-color: rgba(14, 127, 144, 0.79);
     transition: .5s;
     text-align: center;
     padding-bottom: 20vw;
@@ -131,7 +129,6 @@ ul {
     padding-bottom: 2vw;
 
 
-
 }
 
 #menuDesktop a {
@@ -140,8 +137,6 @@ ul {
     color: rgb(232, 231, 231);
     padding: 4rem;
 
-    /*    font-family: 'Montserrat',
-    sans-serif;*/
 }
 
 #menuDesktop a:hover {
@@ -150,7 +145,6 @@ ul {
 
 
 .logo {
-    /*    background-image: url(img/fiske_logo.svg);*/
     background-size: cover;
     background-repeat: no-repeat;
     width: 20vw;
@@ -167,12 +161,6 @@ ul {
     letter-spacing: 5px;
     margin-bottom: 0;
 }
-
-
-
-
-
-
 
 
 
@@ -254,60 +242,61 @@ ul {
 
 #om_mig {
     display: block;
-
     background-size: contain;
-    /*
-    margin: 0;
-    padding: 0;
-*/
     flex-grow: 2;
-    flex-basis: 1;
     margin-top: 50px;
+
+}
+
+#om_mig ul {
+    padding-bottom: 5vw;
+    text-align: center;
+    list-style: none;
 
 }
 
 #om_mig h1 {
     display: block;
-    position: relative;
     top: 3vw;
     text-align: center;
     font-weight: 100;
     font-size: 1.5em;
+    padding-top: 30px;
 
 }
 
 #om_mig .box1 {
     top: 30px;
-
-    padding-bottom: 5vw;
     text-align: center;
-    padding-left: 30vw;
-    padding-right: 30vw;
-    line-height: 2em;
+    line-height: 20px;
     padding-top: 2vw;
     font-size: 1em;
     flex-direction: row;
-    position: relative;
     justify-content: space-between;
 
 }
 
 
 #om_mig .box2 {
-
     padding-left: 20vw;
+    padding-right: 20vw;
+    justify-content: space-between;
+    line-height: 20px;
     position: relative;
-    margin-right: 30vw;
-    left: 5vw;
-    top: -5vh;
-    display: block;
+    padding-bottom: 10vw;
     flex-direction: row;
-    flex-basis: 1;
-    flex-grow: 2;
 
 }
 
-.box2 img {
+#om_mig .box1 img {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    width: 50%;
+}
+
+#om_mig .box2 img {
     width: 90%;
     position: relative;
     padding-top: 2px;
@@ -391,15 +380,12 @@ ul {
     flex-basis: 400px;
 
 
-    /*      height: 25vw;*/
-
 }
 
 #portfolie .felt2 {
     position: relative;
     background-image: url(img/rattata_startside.png);
     background-size: cover;
-
     width: 45vw;
     height: 100%;
     flex-grow: 1;
@@ -417,7 +403,7 @@ ul {
     height: 100%;
     flex-grow: 1;
     flex-basis: 400px;
-    /*    height: 25vw;*/
+
 }
 
 #portfolie .felt4 {
@@ -430,7 +416,6 @@ ul {
     flex-grow: 1;
     flex-basis: 400px;
 
-    /*    height: 25vw;*/
 
 }
 
@@ -441,11 +426,10 @@ ul {
 
 #portfolie .overlay1 {
     position: absolute;
-    background-color: rgba(128, 128, 128, 0.77);
-    ;
+    background-color: rgba(14, 127, 144, 0.54);
     width: 100%;
     height: 100%;
-    z-index: 10px;
+
 }
 
 
@@ -458,7 +442,7 @@ ul {
 
 #portfolie .overlay2 {
     position: absolute;
-    background-color: rgba(128, 128, 128, 0.77);
+    background-color: rgba(14, 127, 144, 0.54);
     width: 100%;
     height: 100%;
 }
@@ -495,19 +479,18 @@ ul {
 }
 
 
-/*/ FONT /*/
+
 
 #portfolie h3 {
     font-size: 1.5rem;
     font-family: montserrat, sans-serif;
-    font-weight: 100;
+    font-weight: 400;
     font-style: normal;
-    /*    color: white;*/
     text-align: center;
     top: 150px;
     position: relative;
     text-decoration: none;
-    /*    background-color: aliceblue;*/
+
 
 }
 
@@ -517,27 +500,24 @@ ul {
 
 #web {
     display: block;
-    background-size: cover;
+    background-size: contain;
     flex-grow: 2;
-    flex-basis: 1;
-    display: block;
-    position: relative;
-    top: 3vw;
-    font-weight: 100;
-    font-size: 1em;
+    margin-top: 50px;
+
 
 
 }
 
 #web h1 {
-    position: relative;
+    display: block;
     top: 3vw;
     text-align: center;
     font-weight: 100;
     font-size: 1.5em;
-    text-align: center;
-
+    padding-top: 30px;
 }
+
+
 
 #web h2 {
     padding-bottom: 1vw;
@@ -554,7 +534,7 @@ ul {
 }
 
 #web ul {
-    text-align: center;
+    list-style: none;
 
 }
 
@@ -567,15 +547,11 @@ ul {
 
 #web .box1 {
     top: 30px;
-
-
     text-align: center;
-
     line-height: 5em;
     padding-top: 2vw;
     font-size: 1em;
     flex-direction: row;
-
     justify-content: space-between;
 
 }
@@ -588,17 +564,11 @@ ul {
     padding-left: 20vw;
     padding-right: 20vw;
     justify-content: space-between;
-    line-height: 2vw;
+    line-height: 20px;
     position: relative;
     padding-bottom: 10vw;
-    /*
-    left: 5vw;
-    top: -5vh;
-*/
-    /*    display: block;*/
     flex-direction: row;
-    flex-basis: 1;
-    flex-grow: 2;
+
 
 }
 
@@ -606,19 +576,15 @@ ul {
 
 #animation {
     display: block;
-    background-size: cover;
+    background-size: contain;
     flex-grow: 2;
-    flex-basis: 1;
-    display: block;
-    position: relative;
-    top: 3vw;
-    font-weight: 100;
-    font-size: 1em;
+    margin-top: 50px;
+    padding-top: 30px;
 
 }
 
 #animation h1 {
-    position: relative;
+    display: block;
     top: 3vw;
     text-align: center;
     font-weight: 100;
@@ -634,7 +600,7 @@ ul {
 }
 
 #animation ul {
-    text-align: center;
+    list-style: none;
 
 }
 
@@ -643,7 +609,7 @@ ul {
     padding-right: 10vw;
     padding-top: 2vw;
     padding-bottom: 2vw;
-    flex-basis: 1;
+
 
 }
 
@@ -654,7 +620,6 @@ ul {
     padding-top: 2vw;
     font-size: 1em;
     flex-direction: row;
-
     justify-content: space-between;
 
 
@@ -668,13 +633,11 @@ ul {
     padding-left: 20vw;
     padding-right: 20vw;
     justify-content: space-between;
-    line-height: 2vw;
+    line-height: 20px;
     position: relative;
     padding-bottom: 10vw;
-
     flex-direction: row;
-    flex-basis: 1;
-    flex-grow: 2;
+
 
 }
 
@@ -683,23 +646,20 @@ ul {
 
 #content {
     display: block;
-    background-size: cover;
+    background-size: contain;
     flex-grow: 2;
-    flex-basis: 1;
-    display: block;
-    position: relative;
-    top: 3vw;
-    font-weight: 100;
-    font-size: 1em;
+    margin-top: 50px;
+
 
 }
 
 #content h1 {
-    position: relative;
+    display: block;
     top: 3vw;
     text-align: center;
     font-weight: 100;
     font-size: 1.5em;
+    padding-top: 30px;
 
 }
 
@@ -712,7 +672,7 @@ ul {
 }
 
 #content ul {
-    text-align: center;
+    list-style: none;
 
 }
 
@@ -721,7 +681,7 @@ ul {
     padding-right: 10vw;
     padding-top: 2vw;
     padding-bottom: 2vw;
-    flex-basis: 1;
+
 
 }
 
@@ -732,13 +692,11 @@ ul {
     padding-top: 2vw;
     font-size: 1em;
     flex-direction: row;
-
     justify-content: space-between;
 }
 
 
 #content .box2 {
-
     padding-left: 20vw;
     padding-right: 20vw;
     justify-content: space-between;
@@ -746,8 +704,7 @@ ul {
     position: relative;
     padding-bottom: 10vw;
     flex-direction: row;
-    flex-basis: 1;
-    flex-grow: 2;
+
 
 
 }
@@ -757,34 +714,30 @@ ul {
 
 #ux {
     display: block;
-    background-size: cover;
+    background-size: contain;
     flex-grow: 2;
-    flex-basis: 1;
-    display: block;
-    position: relative;
-    top: 3vw;
-    font-weight: 100;
-    font-size: 1em;
+    margin-top: 50px;
 }
 
 #ux h1 {
-    position: relative;
+    display: block;
     top: 3vw;
     text-align: center;
     font-weight: 100;
     font-size: 1.5em;
+    padding-top: 30px;
 
 }
 
 #ux a {
-
     text-decoration: none;
     color: hotpink;
 
 }
 
+
 #ux ul {
-    text-align: center;
+    list-style: none;
 
 }
 
@@ -796,34 +749,26 @@ ul {
 }
 
 #ux .box1 {
-
-
     top: 30px;
-
-
     text-align: center;
-
     line-height: 5em;
     padding-top: 2vw;
     font-size: 1em;
     flex-direction: row;
-
     justify-content: space-between;
 
 }
 
 
 #ux .box2 {
-
     padding-left: 20vw;
     padding-right: 20vw;
     justify-content: space-between;
-    line-height: 2vw;
+    line-height: 20px;
     position: relative;
     padding-bottom: 10vw;
-
     flex-direction: row;
-    flex-basis: 1;
-    flex-grow: 2;
+
+
 
 }
