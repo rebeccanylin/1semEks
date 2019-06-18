@@ -540,8 +540,7 @@ ul {
 }
 
 #web h2 {
-    position: relative;
-    text-align: center;
+    padding-bottom: 1vw;
 
 }
 
@@ -550,34 +549,48 @@ ul {
     text-align: center;
     text-decoration: none;
     color: hotpink;
+    padding-top: 2vw;
 
 }
 
-#web .box1 {
+#web img {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
 
+#web .box1 {
     top: 30px;
 
-    padding-bottom: 5vw;
+
     text-align: center;
-    padding-left: 30vw;
-    padding-right: 30vw;
-    line-height: 2em;
+
+    line-height: 5em;
     padding-top: 2vw;
     font-size: 1em;
     flex-direction: row;
-    position: relative;
+
     justify-content: space-between;
 
 }
 
+#web h4 {
+    padding-top: 2vw;
+}
 
 #web .box2 {
     padding-left: 20vw;
+    padding-right: 20vw;
+    justify-content: space-between;
+    line-height: 2vw;
     position: relative;
-    margin-right: 30vw;
+    padding-bottom: 10vw;
+    /*
     left: 5vw;
     top: -5vh;
-    display: block;
+*/
+    /*    display: block;*/
     flex-direction: row;
     flex-basis: 1;
     flex-grow: 2;
@@ -616,30 +629,40 @@ ul {
 
 }
 
-#animation .box1 {
-
-    padding-bottom: 5vw;
-    text-align: center;
-    padding-left: 30vw;
-    padding-right: 30vw;
-    line-height: 2em;
+#animation img {
+    padding-left: 10vw;
+    padding-right: 10vw;
     padding-top: 2vw;
-    font-size: 1em;
-    flex-direction: row;
-    position: relative;
-    justify-content: space-between;
+    padding-bottom: 2vw;
+    flex-basis: 1;
 
 }
 
+#animation .box1 {
+    top: 30px;
+    text-align: center;
+    line-height: 5em;
+    padding-top: 2vw;
+    font-size: 1em;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+
+}
+
+#animation h4 {
+    padding-top: 2vw;
+}
 
 #animation .box2 {
-
     padding-left: 20vw;
+    padding-right: 20vw;
+    justify-content: space-between;
+    line-height: 2vw;
     position: relative;
-    margin-right: 30vw;
-    left: 5vw;
-    top: -5vw;
-    display: block;
+    padding-bottom: 10vw;
+
     flex-direction: row;
     flex-basis: 1;
     flex-grow: 2;
@@ -679,33 +702,39 @@ ul {
 
 }
 
-#content .box1 {
+#content img {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    flex-basis: 1;
 
-    padding-bottom: 5vw;
+}
+
+#content .box1 {
+    top: 30px;
     text-align: center;
-    padding-left: 30vw;
-    padding-right: 30vw;
-    line-height: 2em;
+    line-height: 5em;
     padding-top: 2vw;
     font-size: 1em;
     flex-direction: row;
-    position: relative;
-    justify-content: space-between;
 
+    justify-content: space-between;
 }
 
 
 #content .box2 {
 
     padding-left: 20vw;
+    padding-right: 20vw;
+    justify-content: space-between;
+    line-height: 2vw;
     position: relative;
-    margin-right: 30vw;
-    left: 5vw;
-    top: -5vw;
-    display: block;
+    padding-bottom: 10vw;
     flex-direction: row;
     flex-basis: 1;
     flex-grow: 2;
+
 
 }
 
@@ -741,17 +770,26 @@ ul {
 
 }
 
+#ux img {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
 #ux .box1 {
 
-    padding-bottom: 5vw;
+
+    top: 30px;
+
+
     text-align: center;
-    padding-left: 30vw;
-    padding-right: 30vw;
-    line-height: 2em;
+
+    line-height: 5em;
     padding-top: 2vw;
     font-size: 1em;
     flex-direction: row;
-    position: relative;
+
     justify-content: space-between;
 
 }
@@ -760,11 +798,12 @@ ul {
 #ux .box2 {
 
     padding-left: 20vw;
+    padding-right: 20vw;
+    justify-content: space-between;
+    line-height: 2vw;
     position: relative;
-    margin-right: 30vw;
-    left: 5vw;
-    top: -5vw;
-    display: block;
+    padding-bottom: 10vw;
+
     flex-direction: row;
     flex-basis: 1;
     flex-grow: 2;
