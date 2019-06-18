@@ -255,6 +255,12 @@ ul {
 
 }
 
+#om_mig h4 {
+    font-weight: 600;
+
+
+}
+
 #om_mig h1 {
     display: block;
     top: 3vw;
@@ -701,6 +707,7 @@ ul {
     padding-right: 20vw;
     justify-content: space-between;
     line-height: 2vw;
+    line-height: 20px;
     position: relative;
     padding-bottom: 10vw;
     flex-direction: row;
