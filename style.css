@@ -622,10 +622,14 @@ ul {
 }
 
 #animation a {
-    position: relative;
-    text-align: center;
     text-decoration: none;
     color: hotpink;
+
+
+}
+
+#animation ul {
+    text-align: center;
 
 }
 
@@ -702,6 +706,11 @@ ul {
 
 }
 
+#content ul {
+    text-align: center;
+
+}
+
 #content img {
     padding-left: 10vw;
     padding-right: 10vw;
@@ -763,10 +772,14 @@ ul {
 }
 
 #ux a {
-    position: relative;
-    text-align: center;
+
     text-decoration: none;
     color: hotpink;
+
+}
+
+#ux ul {
+    text-align: center;
 
 }
 
